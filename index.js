@@ -6,6 +6,8 @@ const mongoose = require('mongoose')
 
 dotenv.config({path : `.env`})
 
+const playersRouter = require('./routes/playersRoute.js');
+
 /*MONGODB CONNECTION START*/
 const MONGO_URL = process.env.MONGO_URL ;
 
@@ -22,7 +24,7 @@ mongoose.connection.on('error', (err) => {
 /*MONGODB CONNECTION END*/
 
 app.use(express.json());
-
+app.use('/players', playersRouter);
 
 
 app.get('/', (req, res) => {
