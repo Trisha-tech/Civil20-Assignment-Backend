@@ -1,6 +1,7 @@
 const express = require(`express`);
+const cors = require("cors");
 const app = express();
-const PORT =  8080;
+const PORT = process.env.PORT || 8080;
 const dotenv = require(`dotenv`)
 const mongoose = require('mongoose')
 
@@ -23,7 +24,9 @@ mongoose.connection.on('error', (err) => {
 })
 /*MONGODB CONNECTION END*/
 
+app.use(cors());
 app.use(express.json());
+app.options('*', cors());
 app.use('/players', playersRouter);
 
 
