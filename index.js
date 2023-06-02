@@ -23,10 +23,13 @@ mongoose.connection.on('error', (err) => {
     console.log("Error Connecting to Database", err)
 })
 /*MONGODB CONNECTION END*/
-
-app.use(cors());
+const corsOrigin ={
+    origin:'https://civil20-frontend.onrender.com', //or whatever port your frontend is using
+    credentials:true,            
+    optionSuccessStatus:200
+}
+app.use(cors(corsOrigin));
 app.use(express.json());
-app.options('*', cors());
 app.use('/players', playersRouter);
 
 
