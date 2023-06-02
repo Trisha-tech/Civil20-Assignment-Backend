@@ -24,7 +24,7 @@ mongoose.connection.on('error', (err) => {
 })
 /*MONGODB CONNECTION END*/
 const corsOrigin ={
-    origin:'https://civil20-frontend.onrender.com', //or whatever port your frontend is using
+    origin:'https://civil20-frontend.onrender.com' || 'http://localhost:3000', //or whatever port your frontend is using
     credentials:true,            
     optionSuccessStatus:200
 }
