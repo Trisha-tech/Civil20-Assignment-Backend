@@ -12,6 +12,8 @@ The task is to create view as per given screenshot (attached):
 
 
 
+**DEPLOYED LINK:**  https://civil20-backend.onrender.com
+
 
 ## 📌 Tech Stack
 
@@ -43,26 +45,9 @@ Run command ```git init```
 git clone https://github.com/<your_github_username>/Civil20-Assignment-Backend
 ```
 
-6. To run the Frontend part, follow these steps:
-   
-   a. Go to Frontend directory: 
-   ```bash
-   cd frontend
-   ```
-   
-   b. Install NodeJS modules
-   ```bash
-   npm install
-   ```
-   
-   c. Start the development server
-    ```bash
-   npm start
-   ```
-   
-   d. This will start developement server at localhost:3000
 
-7. To run the Backend part, follow these steps:
+
+6. To run the Backend part, follow these steps:
 
    a. Go to Backend directory: 
    ```bash
@@ -102,26 +87,6 @@ git clone https://github.com/<your_github_username>/Civil20-Assignment-Backend
 
 ![https___civil20-backend onrender com_players_new-player - My Workspace 6_3_2023 9_30_20 PM](https://github.com/Trisha-tech/Civil20-Assignment-Backend/assets/55338588/21baf8ac-de05-4245-835c-d6bb851d48ea)
 
-
-**USER INTERFACE (UI)**
-
-
-![React App - Google Chrome 6_3_2023 9_41_04 PM](https://github.com/Trisha-tech/Civil20-Assignment-Backend/assets/55338588/66264df8-d733-48f0-ab1c-4f37ee2b1659)
-![React App - Google Chrome 6_3_2023 9_41_16 PM](https://github.com/Trisha-tech/Civil20-Assignment-Backend/assets/55338588/03a2cadd-2fb4-4382-984c-7baa7ee01a05)
-
-
-![React App - Google Chrome 6_3_2023 9_42_05 PM](https://github.com/Trisha-tech/Civil20-Assignment-Backend/assets/55338588/803ec806-a264-4401-9e74-4d5bcae617fd)
-![React App - Google Chrome 6_3_2023 9_42_11 PM](https://github.com/Trisha-tech/Civil20-Assignment-Backend/assets/55338588/d82ac4d9-992e-4c3a-be1e-397451d9b7a3)
-
-
-
-![React App - Google Chrome 6_3_2023 9_42_42 PM](https://github.com/Trisha-tech/Civil20-Assignment-Backend/assets/55338588/72bad0d5-a79d-49b3-adac-806ecb4847fd)
-![React App - Google Chrome 6_3_2023 9_43_01 PM](https://github.com/Trisha-tech/Civil20-Assignment-Backend/assets/55338588/c0032f42-2780-4cd1-9cdd-ead99352af55)
-![React App - Google Chrome 6_3_2023 9_43_05 PM](https://github.com/Trisha-tech/Civil20-Assignment-Backend/assets/55338588/2392db73-20cd-474b-aaa7-fcd538e8ddd3)
-
-
-![React App - Google Chrome 6_3_2023 9_43_29 PM](https://github.com/Trisha-tech/Civil20-Assignment-Backend/assets/55338588/ff9a410d-085f-46f5-94d4-306af79e7ef9)
-![React App - Google Chrome 6_3_2023 9_43_35 PM](https://github.com/Trisha-tech/Civil20-Assignment-Backend/assets/55338588/56b94f90-8301-4fc4-9d71-48cedee57c34)
 
 
 
